@@ -130,7 +130,7 @@ class Board:
                     print("Корабль повреждён!")
                     return True
 
-        self.field[d.x][d.y] = "✸"
+        self.field[d.x][d.y] = "T"
         print("Промах!")
         return False
 
